@@ -1,0 +1,74 @@
+form {
+    width: 200px;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 300px;
+    border-radius: 4px;
+    color: rgb(22, 20, 22);
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgb(121, 172, 161);
+    border: 5px solid rgb(240, 23, 113);
+}
+
+.poke-card::before {
+    content: '';
+    background: radial-gradient(rgb(230, 7, 7) 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.poke-types div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 5px dashed rgb(104, 20, 201);
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+h1{
+    color:brown solid 6px;
+}
+
+body{
+    background-image: url(https://www.gratistodo.com/wp-content/uploads/2016/12/Pokemon-gifs-17.gif);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-family: 'Roboto',sans-serif;
+    background-attachment: fixed;
+}
